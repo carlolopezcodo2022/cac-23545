@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+/*tamaño de fuente por defecto es 16px*/
+:root {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*medidas flexibles*/
+/*vh: view port height*/
+/*vw: view port width*/
+
+/*regla*/
+/*selector por clase*/
+.headerStyle {
+    text-align: center;
+    border: 1px dashed orange;
+    /*propiedades de texto*/
+    text-transform: uppercase;
+    text-decoration: 1px underline red;
+    background: aquamarine;
+    /*bordes*/
+    border-radius: 10px;
+    text-shadow: 5px 1px 2px black;
+    /*margin*/
+    margin-bottom: 1rem ;
+}
+
+/*selector por etiqueta (hijo de .headerStyle)*/
+.headerStyle h1{
+    /*cambiar el weight*/
+    font-weight: 400;
+    /* font-style: italic; */
+    font-size: 3em;
+    color:blue;
+}
+
+/*definit una regla*/
+/*selector de clase*/
+.mainSection {
+    font-size: 10px;/*medida absoluta*/
+    border: 1px solid black;
+    /*alto medida flexible vh*/
+    height: 50vh;
+    width: 50vw;
+    min-height: 100px;
+    min-width: 300px;
+}
+/*selector descendiente*/
+.mainSection div {
+    font-size: 2em;
+}
+.mainDiv p {
+    color: red;
+    /*hereda el tamaño de fuente de .mainSection(20px)*/
+                    /*medidas relativas*/
+    font-size: 2em; /*rem => 16px * 2 = 32px*/
+                    /*em  => 20px * 2 = 40px*/                    
+}
+p {
+    color:green;
+}
+
+#pixeles {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+#centimetros {
+    background-color: rgb(0, 26, 255);
+    width: 2.54cm;
+    height: 2.54cm;
+}

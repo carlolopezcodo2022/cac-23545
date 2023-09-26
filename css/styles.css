@@ -1,0 +1,35 @@
+/*regla de css para el tag h1*/
+
+/*selector de etiqueta: solo afecta al h1*/
+h1 {
+    color: red;
+    display: inline;
+}
+
+/*creo una regla que afecte al h3*/
+/*selector de etiqueta: h3*/
+h3 {
+    color: blue;
+}
+
+/*otra regla para h4*/
+h4 {
+    color: green;
+}
+/*-----------------*/
+/*REGLA PARA el id="capitanes"*/
+/*seletor por id*/
+#capitanes {
+    color: blueviolet;
+}
+/*ESPECIFICIDAD*/
+/* !important > inline > id > clase > etiqueta*/
+
+/*----------------*/
+/*selector por clase*/
+.textoFuerte {
+    font-size: 25;/*32px*/
+    color: brown !important;
+}
+
+/*??*/

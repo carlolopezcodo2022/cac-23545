@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*tamaño de fuente por defecto es 16px*/
+:root {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 10px;
+}
+.logo {
+    background: url(../imgs/logo_2021_S.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 10vh;
+    min-height: 30px;
+    width: 20vw;    
+    /* border: 1px solid black; */
+}
+
+.flex-container {
+    /* background-color: aqua; */
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;    
+    width: 80vw;
+}
+
+.links {
+    display: none;
+    list-style: none;
+    justify-content: flex-end;
+    width: 70vw;
+    font-size: 14px;
+    align-items: center;
+}
+
+.links li {
+    margin: 5px;
+}
+
+/*media query*/
+@media screen and (min-width:426px) {
+    /*todo lo que pongo aca*/
+    .flex-container {
+        flex-direction: row;
+        background-color: transparent;
+    }
+    .links {
+        display: flex;
+    }
+    .burguer-menu {
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    
+}
+/*
+@media print {
+    .flex-container {
+        background: url(../imgs/micv.jpg);
+        font-size: 3rem;
+    }
+}*/

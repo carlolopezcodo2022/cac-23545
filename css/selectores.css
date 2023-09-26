@@ -1,0 +1,29 @@
+/*el hermano p de h1*/
+/*selecciona al elemento que viene inmediatamente despues de:*/
+
+h1 + p {
+    font-size: 25px !important;
+    color:blue;
+}
+
+/*hermanos generales*/
+h1 ~ p { /*alt+126 */
+    font-size: 3em;
+}
+
+#p3 {
+    font-size: 15px !important;
+}
+
+/*selector de atributo*/
+a[title='google'] {
+    font-size: 3em;
+}
+a[href*='insta'] {
+    color:red;
+}
+
+p[atry='valuey'] {
+    color: blueviolet;
+    font-size: 4em;
+}

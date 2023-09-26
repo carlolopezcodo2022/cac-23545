@@ -1,0 +1,15 @@
+:root {
+    /*white*/
+    --white: #ffffff;
+    /*black*/
+    --black: hsla(240, 100%, 1%, 0.918);
+    
+    /*variables*/
+    --btn-base-heigth: 6vh;/*relativo al alto*/
+    --btn-base-width: 15vw;/*relativo al ancho*/
+    --primary-color: #000000;
+    
+    /*fuentes*/
+    --font-family-base: 'Courier New';
+
+}

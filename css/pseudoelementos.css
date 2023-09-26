@@ -1,0 +1,68 @@
+/*
+PSEUDOCLASES
+*/
+.segundo-parrafo p:first-child {
+    color:red !important;
+}
+
+.segundo-parrafo p:last-child {
+    color:blue !important;
+}
+
+/*el tercero*/
+.segundo-parrafo p:nth-child(3) {
+    color:green;
+}
+
+/*elementos pares e impares*/
+.segundo-parrafo p:nth-child(even) {
+    color: rgb(251, 0, 255);
+    font-weight: bolder;
+}
+
+.segundo-parrafo p:nth-child(odd) {
+    color: rgb(0, 187, 255);
+    font-weight: bolder;
+}
+
+/*nth:child()*/
+.tercer-parrafo {
+    background: black;
+    color: white;
+}
+.tercer-parrafo p:nth-child(2n+1) {
+    color:rgb(132, 132, 25);
+}
+
+/*pseudoclases*/
+/*
+    link
+    hover
+    visited
+    active
+*/
+.links a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.links a:active {
+    text-decoration: underline;
+    color:rgb(255, 191, 0);
+}
+.links a:visited {
+    color: brown;
+}
+
+a:hover{
+    font-size: 2rem;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.avatar img:hover {
+    border: 1px solid red;
+}
